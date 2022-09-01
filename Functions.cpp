@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 using std::cout;
-using std::endl; 
+using std::endl; //I'm new! endl is short for END OF LINE.
 using std::string;
 
 //Declare AND define!
