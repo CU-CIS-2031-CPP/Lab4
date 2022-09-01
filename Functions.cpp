@@ -16,12 +16,15 @@ int add(int a, int b){
 int multiply(int, int);
 
 //Declare
-float divide(int divident, int divisor);
+float divide(int dividend, int divisor);
 
 void main(){
-   cout << add(4,5) << endl;
-   cout << add(1,3) << endl;
-   cout << divide(1,2) << endl;
+   cout << "Our main() function is starting.." << endl;
+   cout << "add(4,5) = " << add(4,5) << endl;
+   cout << "add(1,3) = " << add(1,3) << endl;
+   cout << "divide(10,2) = " << divide(10,2) << endl;
+   cout << "divide(1,2) = " << divide(1,2) << endl;
+   cout << "Our main() function is complete.." << endl << endl;
 }
 
 //Define
